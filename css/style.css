@@ -1,21 +1,35 @@
 /* Selettore del tag */
 
 h1 {
-    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: overline;
+    color: rgb(0, 128, 0)
 }
 
 p {
-    color: blue;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 255);
 }
 
+/* Selettore di id */
 #titolo-secondario {
-    color: red;
+    color: rgb(255, 0, 0);
 }
 
+/* Selettore di classe */
 .secondasezione {
-    color: red;
+    text-align: center;
+    color: rgb(15, 147, 235)
 }
 
 .altro-titolo {
-    color: red;
+    color: rgb(128, 0, 128)
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
