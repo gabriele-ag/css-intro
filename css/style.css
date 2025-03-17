@@ -1,0 +1,21 @@
+/* Selettore del tag */
+
+h1 {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+#titolo-secondario {
+    color: red;
+}
+
+.secondasezione {
+    color: red;
+}
+
+.altro-titolo {
+    color: red;
+}
