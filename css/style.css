@@ -15,6 +15,10 @@ p {
     color: rgb(0, 0, 255);
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* Selettore di id */
 #titolo-secondario {
     color: rgb(255, 0, 0);
@@ -32,4 +36,25 @@ p {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.square {
+    background-color: rgb(0, 0, 255);
+    height: 400px;
+    width: 400px;
+}
+
+.big-square {
+    background-color: rgb(165, 42, 42);
+    height: 400px;
+    width: 70%;
+}
+
+.banner-section {
+    height: 300px;
+    background-color: rgb(127, 255, 212);
+    background-image: url(../img/cat.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
